@@ -1,75 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>My Blog</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-salmon fixed-top">
-        <a class="navbar-brand" href="#">My Website</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="blogs.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container mt-5">
-        <h1 class="mt-4">Blog</h1>
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="blog-post">
-                    <h2 class="blog-post-title">First Blog Post</h2>
-                    <p class="blog-post-meta">January 1, 2024 by <a href="#">Author</a></p>
-                    <p>This is your first blog post. You can write your content here.</p>
-                    <hr>
-                    <p>Continue writing your content...</p>
-                </div>
-                <div class="blog-post mt-5">
-                    <h2 class="blog-post-title">Second Blog Post</h2>
-                    <p class="blog-post-meta">February 15, 2024 by <a href="#">Author</a></p>
-                    <p>This is your second blog post. You can write your content here.</p>
-                    <hr>
-                    <p>Continue writing your content...</p>
-                </div>
-                <!-- Add more blog posts here -->
-            </div>
-            <div class="col-lg-4">
-                <!-- Sidebar (optional) -->
-                <div class="p-4">
-                    <h4 class="font-italic">About</h4>
-                    <p class="mb-0">This is a brief description about the blog or the author.</p>
-                </div>
-                <!-- Add more sidebar content here if needed -->
-            </div>
-        </div>
+    <div class="sidebar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
     </div>
 
-    <footer class="py-5 bg-salmon">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; My Website 2024</p>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <div class="content">
+        <header>
+            <h1>Blog</h1>
+        </header>
+        
+        <main>
+            <p>Here you can find my latest blog posts:</p>
+            <!-- Add blog posts here -->
+        </main>
+    </div>
 </body>
 </html>
