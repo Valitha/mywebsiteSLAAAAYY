@@ -16,6 +16,9 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
+    background-color: #ff7eb9; /* Pink background color */
+    padding: 10px;
+    color: white; /* Text color */
 }
 
 /* Main styles */
@@ -34,11 +37,15 @@ main {
 footer {
     text-align: center;
     margin-top: 20px;
+    background-color: #ff7eb9; /* Pink background color */
+    padding: 10px;
+    color: white; /* Text color */
 }
 
 /* Navigation styles */
 nav ul {
     list-style-type: none;
+    margin-top: 20px;
 }
 
 nav ul li {
@@ -49,4 +56,30 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #333;
+}
+
+nav ul li a:hover {
+    color: #ff7eb9; /* Hover color */
+}
+
+/* Blog post styles */
+iframe {
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* Individual blog post styles */
+section {
+    background-color: #ffe6f2; /* Light pink background color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #ff7eb9; /* Pink color for headings */
+}
+
+section p {
+    color: #333; /* Text color */
 }
