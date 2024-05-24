@@ -44,4 +44,45 @@ header {
 
 /* Main styles */
 main {
-    text-align
+    text-align: center;
+}
+
+/* Image styles */
+main img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Footer styles */
+footer {
+    background-color: #FFD9E6; /* Light pink color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Additional styles for specific sections */
+
+/* About page styles */
+.about-content {
+    padding: 20px;
+}
+
+/* Contact page styles */
+.contact-info {
+    text-align: left;
+    padding: 20px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+/* Blog page styles */
+.blog-post {
+    padding: 20px;
+}
