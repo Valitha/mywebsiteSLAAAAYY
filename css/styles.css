@@ -1,45 +1,21 @@
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
+/* Reset CSS */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* Sidebar styles */
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 200px;
-    background-color: #FFD9E6; /* Light pink color */
-    padding-top: 20px;
-    text-align: center;
-}
-
-.sidebar a {
-    display: block;
-    margin-bottom: 10px;
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.sidebar a:hover {
-    color: #E6735C; /* Darker pink on hover */
-}
-
-/* Main content styles */
-.content {
-    margin-left: 220px; /* Width of sidebar + some margin */
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
     padding: 20px;
 }
 
 /* Header styles */
 header {
-    background-color: #FFD9E6; /* Light pink color */
-    padding: 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Main styles */
@@ -48,41 +24,29 @@ main {
 }
 
 /* Image styles */
-main img {
-    width: 200px;
+.profile-image {
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
 }
 
 /* Footer styles */
 footer {
-    background-color: #FFD9E6; /* Light pink color */
-    padding: 20px;
     text-align: center;
+    margin-top: 20px;
 }
 
-/* Additional styles for specific sections */
-
-/* About page styles */
-.about-content {
-    padding: 20px;
-}
-
-/* Contact page styles */
-.contact-info {
-    text-align: left;
-    padding: 20px;
-}
-
-.contact-info ul {
+/* Navigation styles */
+nav ul {
     list-style-type: none;
-    padding: 0;
 }
 
-.contact-info li {
-    margin-bottom: 10px;
+nav ul li {
+    display: inline;
+    margin-right: 10px;
 }
 
-/* Blog page styles */
-.blog-post {
-    padding: 20px;
+nav ul li a {
+    text-decoration: none;
+    color: #333;
 }
