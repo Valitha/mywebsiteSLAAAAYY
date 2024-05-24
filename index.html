@@ -3,24 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>valentina schroeder</title>
+    <title>My Personal Website</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <style>
-        body {
-            padding-top: 56px;
-        }
-        .jumbotron {
-            background: #007bff;
-            color: white;
-        }
-        .navbar-dark .nav-item > a {
-            color: white !important;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">valentina schroeder</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-salmon fixed-top">
+        <a class="navbar-brand" href="#">My Website</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,20 +22,51 @@
                     <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <img src="images/profile.jpg" alt="Profile Photo" class="rounded-circle profile-photo" width="150" height="150">
+                    <h1 class="font-weight-light mt-3">Welcome to My Personal Website</h1>
+                    <p class="lead">A clean and professional space to showcase my work.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <div class="container">
-        <div class="jumbotron mt-4">
-            <h1 class="display-4">welcome to my personal website!</h1>
-            <p class="lead">its really basic because im dumb !!.</p>
-            <hr class="my-4">
-            <p>please check sidebars bestie.</p>
+        <h2 class="mt-4">Recent Posts</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/sample1.jpg" alt="Sample Post">
+                    <div class="card-body">
+                        <h4 class="card-title">Post Title</h4>
+                        <p class="card-text">Brief description of the post content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-salmon">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more posts here -->
         </div>
     </div>
+
+    <footer class="py-5">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; My Website 2024</p>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
